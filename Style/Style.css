@@ -1,0 +1,106 @@
+
+.banner{
+    height: 100px;
+    width: 100%;
+    background-color: #0092DA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+color: white;}
+
+    .underline{
+        text-decoration: underline;}
+
+    h1{
+        color: white;
+        padding-left: 5px;
+        font-family: 'Raleway', sans-serif;
+        display: flex;}
+    .red{
+        color: red;
+        text-decoration: underline;}
+    p{
+        padding-left: 5px;
+        font-family: 'Raleway', sans-serif;}
+    h3 {
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        padding-left: 5px;}
+    h3 span{
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: underline;}
+        .TileButtons{
+            display: flex;
+            margin-right: 10px;
+            justify-content:center;
+            align-items: flex-end;
+            text-decoration:none;}
+    button{
+        color: white;
+        background-color: #0092DA;
+        font-family: 'Raleway', sans-serif;}
+    .container{
+        display: flex;
+    
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    body button{
+        margin-left: 10px;
+    }
+
+.btn-primary{
+    background-color: #0092da;
+    border-color: #0092DA;
+}
+.card-img-top{
+    height: 130px;
+}
+
+.table{
+    margin:10px;    
+ 
+}
+
+td{font-family: 'Raleway', sans-serif;} 
+th{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+form{
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{font-family: 'Raleway', sans-serif;}
+li{font-family: 'Raleway', sans-serif;}
+
+.align-right{
+display: flex;
+justify-content: flex-end;
+
+}
+.align-centre{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    
+    }
+.column{float: right;}
+.navbar-brand{
+    margin-left: 10px;
+}
+
+.red{
+    color: red;
+}
